@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using portarias.API.Models;
 
 namespace portarias.API.Controllers
 {
@@ -10,16 +11,29 @@ namespace portarias.API.Controllers
     [Route("api/[controller]")]
     public class AtividadeController : ControllerBase
     {
+
+        public IEnumerable<Atividade> Atividades = new List<Atividade>() {
+                                                            new Atividade(1),
+                                                            new Atividade(2),
+                                                            new Atividade(3)
+                                                        };
+
         [HttpGet]
-        public string Get()
+        public IEnumerable<Atividade> Get()
         {
-            return "Meu primeiro método get";
+            return Atividades;
+        }
+
+        [HttpGet("{id}")]
+        public Atividade Get(int id)
+        {
+            return Atividades.FirstOrDefault(ativ => ativ.Id == id);
         }
 
         [HttpPost]
-        public string Post()
+        public IEnumerable<Atividade> Post(Atividade atividade)
         {
-            return "Meu primeiro método post";
+            return Atividades.Append<Atividade>(atividade);
         }
 
         [HttpPut]
@@ -29,7 +43,7 @@ namespace portarias.API.Controllers
         }
 
 
-        
+
         [HttpDelete]
         public string Delete()
         {
