@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = portarias.API
-build_property.ProjectDir = C:\Users\fabiano.franca\Documents\_fabiano\Projects\ReactJS\portarias\back\src\portarias.API\
+build_property.ProjectDir = C:\Users\fabiano.franca\Documents\_fabiano\Projects\ReactJS\portarias\back\src\portarias.api\
