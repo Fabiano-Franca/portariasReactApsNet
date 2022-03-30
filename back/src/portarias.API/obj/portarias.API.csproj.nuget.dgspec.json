@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fabiano.franca\\Documents\\_fabiano\\Projects\\ReactJS\\portarias\\back\\src\\portarias.api\\portarias.API.csproj": {}
+    "C:\\Users\\fabiano.franca\\Documents\\_fabiano\\Projects\\ReactJS\\portarias\\back\\src\\portarias.API\\portarias.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fabiano.franca\\Documents\\_fabiano\\Projects\\ReactJS\\portarias\\back\\src\\portarias.api\\portarias.API.csproj": {
+    "C:\\Users\\fabiano.franca\\Documents\\_fabiano\\Projects\\ReactJS\\portarias\\back\\src\\portarias.API\\portarias.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fabiano.franca\\Documents\\_fabiano\\Projects\\ReactJS\\portarias\\back\\src\\portarias.api\\portarias.API.csproj",
+        "projectUniqueName": "C:\\Users\\fabiano.franca\\Documents\\_fabiano\\Projects\\ReactJS\\portarias\\back\\src\\portarias.API\\portarias.API.csproj",
         "projectName": "portarias.API",
-        "projectPath": "C:\\Users\\fabiano.franca\\Documents\\_fabiano\\Projects\\ReactJS\\portarias\\back\\src\\portarias.api\\portarias.API.csproj",
+        "projectPath": "C:\\Users\\fabiano.franca\\Documents\\_fabiano\\Projects\\ReactJS\\portarias\\back\\src\\portarias.API\\portarias.API.csproj",
         "packagesPath": "C:\\Users\\fabiano.franca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fabiano.franca\\Documents\\_fabiano\\Projects\\ReactJS\\portarias\\back\\src\\portarias.api\\obj\\",
+        "outputPath": "C:\\Users\\fabiano.franca\\Documents\\_fabiano\\Projects\\ReactJS\\portarias\\back\\src\\portarias.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

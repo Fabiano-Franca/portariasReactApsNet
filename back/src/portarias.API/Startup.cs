@@ -42,6 +42,9 @@ namespace portarias.API
                 //Define a versão da API
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "portarias.API", Version = "v1" });
             });
+            //Controle de acesso de permissão de origem
+            //Estamos permitindo que nosso front-end consiga fazer requisições na nossa API
+            services.AddCors();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -60,6 +63,11 @@ namespace portarias.API
             app.UseRouting();
 
             app.UseAuthorization();
+
+            //Permitindo que todos os Headers, Métodos e Origens acessem a API
+            app.UseCors(option => option.AllowAnyHeader()
+                                        .AllowAnyMethod()
+                                        .AllowAnyOrigin());
 
             //Define os Endpoints
             app.UseEndpoints(endpoints =>

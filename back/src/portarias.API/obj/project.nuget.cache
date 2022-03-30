@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rvxtTcMcUdtYy4wCvNhUvooCPByqZWS/md9Bxz9i0Wb7mzBEUi3beqYhujM37YJ71KVv5AphCAh0Q9bi8QxXZw==",
+  "dgSpecHash": "hD+r6sTB4Nn4ollGSYG0STM97I4Yj+IJ12HtcQDO+3Vsoo7wDxrg9IecY4ndXDSXe8CeawJF5OdE3XYLfyr+Qg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fabiano.franca\\Documents\\_fabiano\\Projects\\ReactJS\\portarias\\back\\src\\portarias.api\\portarias.API.csproj",
+  "projectFilePath": "C:\\Users\\fabiano.franca\\Documents\\_fabiano\\Projects\\ReactJS\\portarias\\back\\src\\portarias.API\\portarias.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fabiano.franca\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\fabiano.franca\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

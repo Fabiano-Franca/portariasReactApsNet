@@ -32,11 +32,11 @@ namespace portarias.API.Controllers
         }
 
         [HttpPost]
-        public IEnumerable<Atividade> Post(Atividade atividade)
+        public Atividade Post(Atividade atividade)
         {
             _db.Atividades.Add(atividade);
             if (_db.SaveChanges() > 0)
-                return _db.Atividades;
+                return _db.Atividades.FirstOrDefault(atv => atv.Id == atividade.Id);
 
             throw new Exception("Falha ao adicionar uma atividade");
 
