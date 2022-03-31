@@ -1,4 +1,4 @@
-namespace portarias.API.Models
+namespace portarias.Domain.Entities
 {
     public enum Prioridade
     {

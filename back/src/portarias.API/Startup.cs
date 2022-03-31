@@ -13,7 +13,11 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using portarias.API.Data;
+using portarias.Data.Context;
+using portarias.Data.Repositories;
+using portarias.Domain.Interfaces;
+using portarias.Domain.Interfaces.Services;
+using portarias.Domain.Services;
 
 namespace portarias.API
 {
@@ -32,6 +36,11 @@ namespace portarias.API
             services.AddDbContext<DataContext>(
                 options => options.UseSqlite(Configuration.GetConnectionString("Default"))
             );
+
+            services.AddScoped<IAtividadeRepo, AtividadeRepo>();
+            services.AddScoped<IGeralRepo, GeralRepo>();
+            services.AddScoped<IAtividadeService, AtividadeService>();
+
             services.AddControllers()
                     .AddJsonOptions(options =>
                     {
