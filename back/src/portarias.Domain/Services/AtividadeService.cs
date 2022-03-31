@@ -73,32 +73,32 @@ namespace portarias.Domain.Services
             try
             {
                 var atividade = await _atividadeRepo.PegaPorIdAsync(atividadeId);
-                if(atividade == null) return null;
+                if (atividade == null) return null;
 
                 return atividade;
             }
             catch (System.Exception ex)
             {
-                
+
                 throw new Exception(ex.Message);
             }
         }
 
         public async Task<Atividade[]> PegarTodasAtividadesAsync()
         {
-           try
-           {
+            try
+            {
                 var atividades = await _atividadeRepo.PegaTodasAsync();
-                if(atividades == null) return null;
+                if (atividades == null) return null;
 
                 return atividades;
-           }
-           catch (System.Exception ex)
-           {
-               throw new Exception(ex.Message);
-               
-               throw;
-           }
+            }
+            catch (System.Exception ex)
+            {
+                throw new Exception(ex.Message);
+
+                throw;
+            }
         }
     }
 }
