@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/back/src/portarias.API/portarias.API.csproj",
+                "${workspaceFolder}/back/src/dSalarial.API/dSalarial.API.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/back/src/portarias.API/portarias.API.csproj",
+                "${workspaceFolder}/back/src/dSalarial.API/dSalarial.API.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/back/src/portarias.API/portarias.API.csproj"
+                "${workspaceFolder}/back/src/dSalarial.API/dSalarial.API.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
